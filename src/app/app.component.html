@@ -1,0 +1,54 @@
+<div style="size: 8%;" class="container no-gutters m-auto">
+  <header id="main-header">
+    <div class="row no-gutters  align-items-strech ">
+      <div class="main-img col-lg-4 col-md-5">
+        <img class="main-img" alt="tom-shaffir photo" src="/tree/gh-pages/assets/main-portfolio-photo.jpeg">
+      </div>
+      <div class="col-lg-8 col-md-7">
+        <div class="d-flex flex-column">
+          <div class="p-5 bg-dark text-white">
+            <div style="font-size: 1.8em;" class="name d-flex flex-row justify-content-between align-items-center">
+              <h1 class="display-4">Tom Shaffir</h1>
+              <div>
+                <i class="fa fa-twitter nav-icon"></i>
+              </div>
+              <div>
+                <i class="fa fa-facebook nav-icon"></i>
+              </div>
+              <div>
+                <i class="fa fa-instagram nav-icon"></i>
+              </div>
+              <div>
+                <i class="fa fa-github nav-icon"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-4 bg-black">
+            <strong>Front End Developer</strong>
+          </div>
+          <div style="max-height: 80px;"  class="d-flex flex-row text-white text-center ">
+            <div class="port-item p-4 bg-primary" data-toggle="collapse" routerLink="/">
+              <i style="font-size: 1.5em;" class="fa fa-home"> Home</i>
+            </div>
+            <div class="port-item p-4 bg-success" data-toggle="collapse" routerLink="/resume">
+              <i style="font-size: 1.5em;" class="fa fa-graduation-cap"> Resume</i>
+            </div>
+            <div class="port-item p-4 bg-warning" data-toggle="collapse" routerLink="/work">
+              <i style="font-size: 1.5em;" class="fa fa-folder-open"> Work</i>
+            </div>
+            <div class="port-item p-4 bg-danger" data-toggle="collapse" routerLink="/contact">
+              <i style="font-size: 1.5em;" class="fa fa-envelope"> Contact</i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div style="max-width: 1043px; float: right;">
+
+    <router-outlet></router-outlet>
+    <app-footer ></app-footer>
+  </div>
+  
+</div>
